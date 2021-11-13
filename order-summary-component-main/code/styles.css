@@ -1,7 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   font-weight: 300;
+}
+
+html {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  min-height: 100%;
 }
