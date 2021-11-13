@@ -10,3 +10,7 @@ html {
   background-color: #e0e8ff;
   min-height: 100%;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
