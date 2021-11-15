@@ -31,3 +31,11 @@ main {
   background-color: #fff;
   border-radius: 24px;
 }
+
+#summary .ilustracao {
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
