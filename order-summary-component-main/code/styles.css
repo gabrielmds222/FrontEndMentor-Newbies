@@ -17,6 +17,7 @@ body {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -29,6 +30,7 @@ main {
   width: 30%;
   min-height: 450px;
   background-color: #fff;
+  margin-top: 15px;
   border-radius: 24px;
 }
 
@@ -88,7 +90,7 @@ main {
 }
 
 #summary .content .plan .right {
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
 #summary .content .plan .right a {
@@ -103,11 +105,25 @@ main {
   align-items: center;
   justify-content: center;
   height: 45px;
-  margin-top: 25px;
+  margin: 25px 0;
   color: #fff;
   background-color: #3829e0;
   border-radius: 15px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+#summary .content .cancel {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+#summary .content .cancel a {
+  text-decoration: none;
+  color: #7280a7;
+}
+
+.attribuition {
+  margin: 20px 0;
 }
