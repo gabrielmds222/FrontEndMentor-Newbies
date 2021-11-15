@@ -57,3 +57,7 @@ main {
   margin: 25px 0;
   color: #7280a7;
 }
+
+#summary .content .plan {
+  background-color: #f8f9fe;
+}
