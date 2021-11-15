@@ -92,5 +92,22 @@ main {
 }
 
 #summary .content .plan .right a {
+  color: #3829e0;
+  font-weight: bold;
   font-size: 14px;
+}
+
+#summary .content .btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  margin-top: 25px;
+  color: #fff;
+  background-color: #3829e0;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
