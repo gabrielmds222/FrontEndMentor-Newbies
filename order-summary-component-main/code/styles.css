@@ -59,5 +59,38 @@ main {
 }
 
 #summary .content .plan {
+  display: flex;
+  width: 100%;
   background-color: #f8f9fe;
+  max-height: 70px;
+  border-radius: 15px;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#summary .content .plan .music-icon {
+  width: 50px;
+  height: 50px;
+}
+
+#summary .content .plan .left {
+  margin-top: 20px;
+}
+
+#summary .content .plan .left h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#summary .content .plan .left p {
+  margin-top: 4px;
+}
+
+#summary .content .plan .right {
+  margin-left: 60px;
+}
+
+#summary .content .plan .right a {
+  font-size: 14px;
 }
