@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+html {
+  min-height: 100%;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-color: #19a1ad;
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 40vh, left 50vw top 50vh;
+}
