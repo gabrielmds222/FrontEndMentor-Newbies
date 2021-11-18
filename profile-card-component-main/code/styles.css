@@ -33,9 +33,26 @@ main {
   align-items: center;
   margin: auto;
   background-color: #fff;
+  border-radius: 10px;
 }
 
-/* .perfil {
+#Card .card-background {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#Card .card-content {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#Card .card-content .perfil {
+  position: relative;
+  top: -40px;
   border-radius: 50%;
   border: 5px solid #fff;
-} */
+}
