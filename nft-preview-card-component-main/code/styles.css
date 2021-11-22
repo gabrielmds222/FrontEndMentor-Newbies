@@ -59,7 +59,48 @@ main {
   color: #8bacda;
 }
 
-.avatar {
-  width: 40px;
+#Card .content .content-high {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+#Card .content .content-high img {
+  padding-right: 5px;
+}
+
+#Card .content .content-high .price {
+  color: #00fff7;
+  font-weight: bold;
+}
+
+#Card .content .content-high .time {
+  color: #8bacda;
+}
+
+#Card .content .content-low {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-top: 0.2px solid #8bacda;
+  padding-top: 15px;
+}
+
+#Card .content .content-low .avatar {
   height: 40px;
+  width: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+#Card .content .content-low p {
+  align-self: center;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #8bacda;
+}
+
+#Card .content .content-low span {
+  color: #fff;
 }
