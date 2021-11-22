@@ -51,6 +51,12 @@ main {
   font-weight: 300;
   font-size: 24px;
   color: #fff;
+  transition: 0.2s all ease;
+}
+
+#Card .content h2:hover {
+  cursor: pointer;
+  color: #00fff7;
 }
 
 #Card .content .description {
@@ -97,10 +103,16 @@ main {
 #Card .content .content-low p {
   align-self: center;
   padding-left: 10px;
-  font-size: 18px;
+  font-size: 16px;
   color: #8bacda;
 }
 
 #Card .content .content-low span {
   color: #fff;
+  transition: 0.2s all ease;
+}
+
+#Card .content .content-low span:hover {
+  cursor: pointer;
+  color: #00fff7;
 }
