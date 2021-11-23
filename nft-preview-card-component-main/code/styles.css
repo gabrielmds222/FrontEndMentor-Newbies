@@ -39,10 +39,28 @@ main {
   padding: 25px;
 }
 
-#Card .content .card-img {
+/* #Card .content .hidden {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 320px;
   border-radius: 10px;
+  background-color: #00fff7;
+  opacity: 0.3;
+} */
+
+#Card .content .card-img {
+  z-index: 1;
+  width: 100%;
+  height: 320px;
+  border-radius: 10px;
+}
+
+#Card .content .card-img:hover {
+  cursor: pointer;
+  background-color: #00fff7;
 }
 
 #Card .content h2 {
