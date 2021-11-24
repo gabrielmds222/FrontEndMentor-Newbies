@@ -58,10 +58,16 @@ main {
   border-radius: 10px;
 }
 
-#Card .content .card-img:hover {
-  cursor: pointer;
+#Card .content .card-img::after {
+  content: "";
+  background-image: url(../images/icon-view.svg);
   background-color: #00fff7;
 }
+
+/* #Card .content .card-img:hover {
+  cursor: pointer;
+  background-color: #00fff7;
+} */
 
 #Card .content h2 {
   align-self: flex-start;
